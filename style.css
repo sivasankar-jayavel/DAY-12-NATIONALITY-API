@@ -1,0 +1,28 @@
+.sai{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:rgb(2, 31, 89)
+}
+
+body{ 
+    background-image: linear-gradient(to left, rgb(200, 192, 181),rgb(99, 132, 175));
+    /* background-color:rgb(243, 240, 83); */
+    font-size: 30px;
+}
+
+.bton:hover{
+    transition: 0.5s ease-out;
+    color: rgb(52, 40, 65);
+    background-color: rgb(235, 167, 189);
+    transform: scale(1.1);
+    transition:1s; 
+}
+
+.form-control:hover{
+    transition: 0.5s ease-out;
+    color: rgb(42, 35, 49);
+    background-color: rgb(235, 167, 189);
+    transform: scale(1.1);
+    transition:1s; 
+}
